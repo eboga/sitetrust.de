@@ -1,0 +1,19 @@
+name: kfz.gmbh
+tagline:
+url: http://kfz.gmbh
+
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+  parse_block_html: true
+
+gems:
+
+exclude:
+  - deploy.sh
+  - Gemfile
+  - Gemfile.lock
+
+collections:
